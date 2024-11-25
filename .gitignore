@@ -1,0 +1,51 @@
+# /wiki-search-scripts/
+
+/wiki-search-scripts/dist
+/wiki-search-scripts/node_modules
+/wiki-search-scripts/.env
+
+# /wiki-search-frontend/
+# dependencies
+/wiki-search-frontend/node_modules
+/wiki-search-frontend/.pnp
+/wiki-search-frontend/.pnp.*
+# testing
+/wiki-search-frontend/coverage
+
+# next.js
+/wiki-search-frontend/.next/
+/wiki-search-frontend/out/
+
+# production
+/wiki-search-frontend/build
+
+# misc
+/wiki-search-frontend/.DS_Store
+/wiki-search-frontend/*.pem
+
+# debug
+/wiki-search-frontend/npm-debug.log*
+
+# env files (can opt-in for commiting if needed)
+/wiki-search-frontend/.env*
+
+# vercel
+/wiki-search-frontend/.vercel
+
+# typescript
+/wiki-search-frontend/*.tsbuildinfo
+/wiki-search-frontend/next-env.d.ts
+
+# images
+/wiki-search-frontend/public
+
+#
+
+# compiled output
+/wiki-search-backend/dist
+/wiki-search-backend/node_modules
+/wiki-search-backend/build
+/wiki-search-backend/data
+
+# dotenv environment variable files
+/wiki-search-backend/.env

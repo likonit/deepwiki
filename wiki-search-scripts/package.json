@@ -1,0 +1,23 @@
+{
+  "name": "wiki-search-scripts",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "private": false,
+  "license": "UNLICENSED",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "neo4j-driver": "^5.26.0",
+    "request": "^2.88.2"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon --watch src --ext ts --exec ts-node src/index.ts"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
