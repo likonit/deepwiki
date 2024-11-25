@@ -1,6 +1,5 @@
 import { Injectable } from '@nestjs/common';
 import createDriver from 'src/scripts/createDriver';
-import * as neo4j from "neo4j-driver"
 
 @Injectable()
 export class ChildCountService {
