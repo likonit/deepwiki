@@ -2,6 +2,8 @@ html,
 body {
   max-width: 100vw;
   background: #A10B29;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 body {
@@ -10,11 +12,9 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow-y: auto;
-  overflow-x: hidden;
 }
 
-body.active {
+html.active {
   overflow: hidden;
 }
 

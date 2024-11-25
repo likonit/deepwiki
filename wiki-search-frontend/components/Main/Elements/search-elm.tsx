@@ -25,6 +25,13 @@ export default function SearchElm({fnc, text}: {fnc: Dispatch<SetStateAction<str
     }
 
     useEffect(() => {
+
+        function autoUpdateText() {
+
+            setInputValue(input.current?.value)
+            setTimeout(autoUpdateText, 50)
+
+        }
         
         function handleClickOutside(event: MouseEvent) {
 
@@ -34,7 +41,9 @@ export default function SearchElm({fnc, text}: {fnc: Dispatch<SetStateAction<str
             
         }
 
-        document.addEventListener("mousedown", handleClickOutside);
+        document.addEventListener("mousedown", handleClickOutside)
+
+        autoUpdateText()
 
     }, [])
 

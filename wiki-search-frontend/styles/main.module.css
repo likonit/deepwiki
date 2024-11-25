@@ -47,12 +47,10 @@
     font-weight: bold;
     font-size: 17px;
     color: #333;
-    transition: .3s;
 }
 
 .main_block .search_panel .input_block input:hover {
     background: #FAF0DB;
-    transition: .3s;
 }
 
 .input_close, .input_close_active {
@@ -224,6 +222,10 @@
 
 @media screen and (max-width: 570px) {
 
+    .input_block .visible_answers div, .input_block .visible_answers div:hover {
+        transition: 0;
+    }
+
     .main_block .search_panel .input_block input, .input_block .visible_answers div {
         width: 80vw;
     }
@@ -239,7 +241,7 @@
     .main_block .search_panel .pointer_icon, .main_block .search_panel .pointer_icon_active {
         display: flex;
         justify-content: center;
-        margin: 3vh 0;
+        margin: 7vw 0;
     }
 
     .main_block .search_panel .pointer_icon svg, .main_block .search_panel .pointer_icon_active svg {

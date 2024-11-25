@@ -45,7 +45,7 @@ export default function MainBlock() {
                 <div className={styles.search_panel}>
                     <SearchElm fnc={setFrom} text="Статья, с которой начать"></SearchElm>
                     <span className={arrowAnimate ? styles.pointer_icon_active : styles.pointer_icon } ref={iconRef}>
-                        <FontAwesomeIcon icon={faAngleDoubleRight}></FontAwesomeIcon>
+                        <FontAwesomeIcon icon={faAngleDoubleRight} width={20} height={20}></FontAwesomeIcon>
                     </span>
                     <SearchElm fnc={setTo} text="Статья, в которую прийти"></SearchElm>
                 </div>

@@ -26,13 +26,14 @@ export default function ModalWindow() {
     useEffect(() => {
 
         if (visible.is) 
-            document.body.classList.add("active")
+            document.getElementsByTagName("html")[0].classList.add("active")
          else 
-            document.body.classList.remove("active")
+            document.getElementsByTagName("html")[0].classList.remove("active")
 
         return () => {
-            document.body.classList.remove("active")
+            document.getElementsByTagName("html")[0].classList.remove("active")
         }
+        
     }, [visible])
 
     return (
