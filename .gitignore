@@ -36,9 +36,6 @@
 /wiki-search-frontend/*.tsbuildinfo
 /wiki-search-frontend/next-env.d.ts
 
-# images
-/wiki-search-frontend/public
-
 #
 
 # compiled output
