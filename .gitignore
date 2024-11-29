@@ -1,48 +1,48 @@
-# /wiki-search-scripts/
+# /scripts/
 
-/wiki-search-scripts/dist
-/wiki-search-scripts/node_modules
-/wiki-search-scripts/.env
+/scripts/dist
+/scripts/node_modules
+/scripts/.env
 
-# /wiki-search-frontend/
+# /frontend/
 # dependencies
-/wiki-search-frontend/node_modules
-/wiki-search-frontend/.pnp
-/wiki-search-frontend/.pnp.*
+/frontend/node_modules
+/frontend/.pnp
+/frontend/.pnp.*
 # testing
-/wiki-search-frontend/coverage
+/frontend/coverage
 
 # next.js
-/wiki-search-frontend/.next/
-/wiki-search-frontend/out/
+/frontend/.next/
+/frontend/out/
 
 # production
-/wiki-search-frontend/build
+/frontend/build
 
 # misc
-/wiki-search-frontend/.DS_Store
-/wiki-search-frontend/*.pem
+/frontend/.DS_Store
+/frontend/*.pem
 
 # debug
-/wiki-search-frontend/npm-debug.log*
+/frontend/npm-debug.log*
 
 # env files (can opt-in for commiting if needed)
-/wiki-search-frontend/.env*
+/frontend/.env*
 
 # vercel
-/wiki-search-frontend/.vercel
+/frontend/.vercel
 
 # typescript
-/wiki-search-frontend/*.tsbuildinfo
-/wiki-search-frontend/next-env.d.ts
+/frontend/*.tsbuildinfo
+/frontend/next-env.d.ts
 
 #
 
 # compiled output
-/wiki-search-backend/dist
-/wiki-search-backend/node_modules
-/wiki-search-backend/build
-/wiki-search-backend/data
+/backend/dist
+/backend/node_modules
+/backend/build
+/backend/data
 
 # dotenv environment variable files
-/wiki-search-backend/.env
+/backend/.env
