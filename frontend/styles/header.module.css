@@ -1,0 +1,257 @@
+.company_block {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2vw;
+}
+
+.company_block img {
+    cursor: pointer;
+    transition: .5s;
+}
+
+.company_block img:hover {
+    transform: scale(1.07) rotate(5deg) translateX(2px) translateY(2px);
+    transition: .5s;
+}
+.header_block {
+    display: flex;
+    padding: 1vw;
+    background: #90001E;
+    border-bottom: 2px solid #7A0018;
+}
+
+.example_block {
+    display: grid;
+    align-items: center;
+}
+
+.example_block div {
+    padding: 1vw;
+}
+
+.example_block div p {
+    margin-left: 10px;
+    font-size: 16px;
+    color: #c0c0c0;
+    font-weight: bold;
+}
+
+.example_block div h2 {
+    color: #FFEFD5;
+    font-size: 36px;
+    margin-bottom: 5px;
+    white-space: nowrap;
+}
+
+/* nav */
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.header__nav__container {
+    font-size: 0;
+}
+
+.header__nav__container__elm {
+    display: inline-block;
+    font-size: 21px;
+    font-weight: bold;
+    color: #FFEFD5;
+    margin: 0 5px;
+    padding: 0 10px;
+    border-left: 2px solid #CDC0AB;
+    border-right: 2px solid #CDC0AB;
+    transition: .2s;
+}
+
+.header__nav__container__elm:hover {
+    color: #EEDBBD;
+    transition: .3s;
+}
+
+.header__nav__container__elm:first-child, .header__nav__container__elm:last-child {
+    border-left: 0px solid #FFEFD5;
+    border-right: 0px solid #FFEFD5;
+    padding: 0;
+}
+
+/* .header__nav__container__elm:last-child {
+    border-right: 0px solid #FFEFD5;
+} */
+
+.header__nav__container__elm__underline {
+    display: flex;
+    width: 100%;
+    height: 1px;
+    justify-content: center;
+}
+
+.header__nav__container__elm__underline span {
+    background: #EEDBBD;
+    transition: .2s;
+}
+
+.header__nav__container__elm__underline_noactive {
+    width: 0;
+    transition: .2s;
+    
+}
+
+.header__nav__container__elm__underline_active {
+    width: 100%;
+    transition: .2s;
+    
+}
+
+@media screen and (max-width: 1000px) {
+
+    .example_block div {
+        margin-left: 2vw;
+    }
+
+    .example_block div h2 {
+        font-size: 30px;
+    }
+
+    .example_block div p {
+        font-size: 15px;
+    }
+
+    .header__nav__container__elm {
+        font-size: 19px;
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+
+    .example_block div {
+        margin-left: 2vw;
+    }
+
+    .example_block div h2 {
+        font-size: 25px;
+    }
+
+    .example_block div p {
+        font-size: 14px;
+    }
+
+    .header__nav__container__elm {
+        font-size: 16px;
+    }
+
+    .company_block img {
+        width: 80px;
+        height: 80px;
+    }
+
+}
+
+@media screen and (max-width: 610px) {
+
+    .example_block div {
+        margin-left: 3vw;
+    }
+
+    .example_block div h2 {
+        font-size: 22px;
+    }
+
+    .example_block div p {
+        font-size: 12px;
+    }
+
+    .header__nav__container__elm {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 570px) {
+
+    .company_block img {
+        display: none;
+    }
+
+    .example_block div {
+        margin-left: 0vw;
+    }
+
+    .company_block {
+        margin-left: 1vw;
+    }
+
+    .example_block div h2 {
+        font-size: 20px;
+    }
+
+    .example_block div p {
+        font-size: 11px;
+    }
+
+    .header__nav__container__elm {
+        font-size: 13px;
+    }
+
+}
+
+@media screen and (max-width: 456px) {
+
+    .example_block div h2 {
+        font-size: 17px;
+    }
+
+    .example_block div p {
+        font-size: 10px;
+    }
+
+    .header__nav__container__elm {
+        font-size: 12px;
+    }
+
+    .header__nav__container__elm {
+        margin: 0 3px;
+        padding: 0 5px;
+        border-left: 1px solid #CDC0AB;
+        border-right: 1px solid #CDC0AB;
+    }
+
+}
+
+@media screen and (max-width: 386px) {
+
+    .example_block div h2 {
+        font-size: 15px;
+    }
+
+    .example_block div p {
+        font-size: 9px;
+    }
+
+    .header__nav__container__elm {
+        font-size: 11px;
+    }
+
+}
+
+@media screen and (max-width: 346px) {
+
+    .example_block div h2 {
+        font-size: 14px;
+    }
+
+    .example_block div p {
+        font-size: 9px;
+    }
+
+    .header__nav__container__elm {
+        font-size: 10px;
+    }
+
+}
