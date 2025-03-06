@@ -7,7 +7,7 @@ export class CheckExistController {
   constructor(private readonly appService: CheckExistService) {}
 
   @Get("check_exist")
-  async getHello(@Query() query): Promise<string> {
+  async main(@Query() query): Promise<string> {
 
     if (!query.name) {
 

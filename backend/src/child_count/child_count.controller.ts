@@ -7,7 +7,7 @@ export class ChildCountController {
   constructor(private readonly appService: ChildCountService) {}
 
   @Get("child_count")
-  async getHello(@Query() query): Promise<string> {
+  async main(@Query() query): Promise<string> {
 
     if (!query.name) {
 

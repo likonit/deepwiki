@@ -7,7 +7,7 @@ export class AppController {
   constructor(private readonly appService: AppService) {}
 
   @Get("search")
-  async getHello(@Query() query): Promise<string> {
+  async main(@Query() query): Promise<string> {
 
     if (!query.from || !query.to) {
 
